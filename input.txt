@@ -1,0 +1,40 @@
+What Are C++ Header Files?
+
+These are those files that store predefined functions. It contains definitions of functions that you can include or import using a preprocessor directive #include. This preprocessor directive tells the compiler that the header file needs to be processed prior to the compilation. For example, the <iostream> header file in C++ contains the definition of input-output functions.
+
+Here, iomanip is the name of the header file, and .h is the extension of the header file. Unlike C, C++ header files may or may not have .h extension. It must enclose the name of the header file in the angle brackets, and #include is the preprocessor directive.
+
+Here, the name of the header file is enclosed in double quotes, and this syntax is usually preferred when you are defining a user-defined header file.
+
+And now, you will look at the types of header files.
+Types of Header Files
+
+    Standard library header files
+    User-defined header files
+
+Standard library header files: These are those header files that are already present in the compiler of C++; you just need to import them to use them.
+
+User-defined header files: These are those header files defined by the user and can be used by including them in the program using #include.
+
+Now, understand how these header files work.
+How Do Header Files Work?
+
+When you include a header file, suppose #include<FileName.h> in the program, it provides information to the compiler that it possesses this function and its functionality, and the compiler directly replaces the <FileName.h> with its actual functionality or its content. Thus, you don’t have to write the code for it because you have already imported the header file, and it has all the information that the compiler needs to know. 
+How to Create a Header File in C++?
+
+In C++, the code gets bigger and bigger with the functionality, and if you are working on some project, it would not be easy to manage and analyze the complete code of the project. So to avoid this problem, you can create your header file, and can use it whenever you require.
+
+First of all, create a header file, and for that, you will write your code in the file, and save it with the .h extension, for example, fname.h. Here, you are using the .h extension because you are naming a header file.
+The above code is of the header file fname.h 
+
+Now open a new file and write the code; for example, here, you have written the code to find the average of three numbers, but you haven’t written the logic for it. Instead of writing the code, you must simply add the header file, i.e., fname.h, using #include and double-quotes. Then, you must save it with the .cpp extension. 
+After saving the file, run the code, and below is the output of the code, i.e., the average of three numbers.
+Conclusion
+
+After reading this tutorial on C++ Header files, you would have understood why you use Header files, what C++ Header files are, their syntax, and the types of Header files in C++. You also learned about the working of C++ Header files and how you can create your header file with the help of some examples.
+
+Simplilearn’s Post Graduate Program in Full Stack Web Development will be ideal for you if you want a more comprehensive study that goes beyond Mobile and Software Development Delivered in collaborations with Caltech CTME, this online coding boot camp covers the most in-demand programming languages and skills needed for success in software development today. It's time to get out there and explore.
+
+Do you have any questions regarding this tutorial on C++ Header files? If you do, then please put them in the comments section. We’ll help you solve your queries. To learn more about C++ Header files, click on the following link: C++ Header files
+
+Happy learning!
