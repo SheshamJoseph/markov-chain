@@ -14,6 +14,7 @@ int main()
 
     // Convert to absolute path
     fs::path absPath = fs::absolute(filePath);
+    std::cout << absPath << std::endl;
 
     // Validate file existence
     if (!fs::exists(absPath)) {
