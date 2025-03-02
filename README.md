@@ -6,4 +6,4 @@ This project implements a Markov Chain-based text generator in C++. It reads a t
 - Reads input text files and builds a transition matrix.
 - Generates text based on probabilities of word transitions.
 - Supports user input for file path and starting word.
-- Future update: **N-gram support** for better predictions.
+- **N-gram support** for better predictions.
