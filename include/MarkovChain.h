@@ -14,14 +14,15 @@ private:
     // int m_length;
     std::vector<std::string> m_wordVec;                     // a vector of all the words in the input
     std::unordered_map<std::string, int> m_wordsCount;      // map of each mord and its frequency
+    void debugPrintMatrix();
 
-    void generateTransitionMatrix();
+    void generateTransitionMatrix(int n=1);
 
 public:
     MarkovChain();
     ~MarkovChain();
-    void train(std::string_view filePath);
-    void generateSentence(const std::string& start);
+    void train(std::string_view filePath, int n);
+    void generateSentence(const std::string& start, int n);
 };
 
 #endif // MARKOV_CHAIN_H
