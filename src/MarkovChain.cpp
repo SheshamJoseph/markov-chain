@@ -64,7 +64,7 @@ void MarkovChain::generateTransitionMatrix(int n)
     debugPrintMatrix();
 }
 
-void MarkovChain::generateSentence(const std::string& start, int n)
+void MarkovChain::generateSentence(const std::string& start, int n, int length)
 {
     std::string current;
     
@@ -93,7 +93,7 @@ void MarkovChain::generateSentence(const std::string& start, int n)
 
     std::cout << current << " ";
 
-    for (int i = 0; i < 20; ++i)
+    for (int i = 0; i < length; ++i)
     {
         if (m_transitionMatrix.find(current) == m_transitionMatrix.end())
             break;  // Stop if no next words are available

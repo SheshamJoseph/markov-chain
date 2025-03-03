@@ -22,7 +22,7 @@ public:
     MarkovChain();
     ~MarkovChain();
     void train(std::string_view filePath, int n);
-    void generateSentence(const std::string& start, int n);
+    void generateSentence(const std::string& start, int n, int length);
 };
 
 #endif // MARKOV_CHAIN_H
