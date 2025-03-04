@@ -1,5 +1,6 @@
 .vscode/
 build/
-chain
+markov-chain
 images/
 debug_transition_matrix.txt
+future_features.md

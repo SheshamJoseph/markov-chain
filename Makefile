@@ -5,7 +5,7 @@ CC = g++
 CFLAGS = -Wall -Wextra -pedantic
 
 # Target executable
-TARGET = chain
+TARGET = markov-chain
 
 # Source files
 SRCS = src/main.cpp src/MarkovChain.cpp
